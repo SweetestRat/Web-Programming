@@ -1,11 +1,22 @@
+
+@media screen and (max-width: 900px) {
+    #Pic2{
+        display: none;
+    }
+    #genre2{
+        display: none;
+    }
+}
+
 body {
     font-family: arial;
     text-align: center;
     color: black;
-    background:   linear-gradient(70deg, #725EE0, #DD5CF7);
-;
-
+    background: linear-gradient(70deg, #725EE0, #DD5CF7);
 }
+
+
+
 
 main {
     font-size: 15px;
@@ -34,20 +45,35 @@ main {
     margin-top: 6vw;
 }
 
+#for_grid {
+    display: grid;
+    grid-template-rows: 30px 30px ;
+    grid-template-columns: 30px 30px;
+    grid-gap: 1vw;
+}
+#grid > img {
+    font-size: 5vw;
+    text-align: center;
+}
+
 .genre {
     margin-left: 0;
     text-decoration: underline;
+
 }
+
 
 .Pictures {
     margin-left: 0;
     box-shadow: black;
     overflow: hidden;
+    max-height: 260px;
+
 }
 
 .info-links {
     margin-top: 3%;
-    margin-left: 47%;
+    margin-left: 45vw;
 }
 
 .info-link-item {
@@ -57,9 +83,8 @@ main {
     margin: 1vw;
     transition: all 0.3s ease;
     border: black 5px;
-    min-width: 60px;
-    min-height: 120px;
-    overflow: hidden;
+    width: 180px;
+    height: 240px;
 
 
 }
@@ -75,3 +100,6 @@ main {
     transform: translateX(-7px);
 
 }
+
+
+
