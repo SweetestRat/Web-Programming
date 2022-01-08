@@ -1,0 +1,30 @@
+table {
+    margin: 100px auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+table thead tr {
+    color: #ffffff;
+    font-weight: bold;
+    background: #00bf80;
+}
+table thead tr td {
+    border: 1px solid #01ab73;
+}
+table tbody tr td {
+    border: 1px solid #e8e9eb;
+}
+tr:nth-child(2n) {
+    background: #f4f4f4;
+}
+td:not(:nth-child(1)){
+    text-align: right;
+}
+td:nth-child(1){
+    background-color: #706e6e;
+    width: 30%;
+}
+tr:nth-child(1) td{
+    background-color: #706e6e;
+    text-align: left !important;
+}
